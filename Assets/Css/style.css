@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Righteous&display=swap');
+
+:root {
+    --color-warning: #FFED00;
+    --color-success: #3B6F38;
+    --color-tertiary: #E3FEB1;
+    --color-quaternary: #2F4F7F;
+}
+
+.righteous-light {
+  font-family: "Righteous", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.righteous-medium {
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.righteous-semibold {
+  font-family: "Righteous", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.righteous-bold {
+  font-family: "Righteous", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.righteous-extrabold {
+  font-family: "Righteous", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.outfit-bold {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bg-warning {
+    background-color: var(--color-warning) !important;
+}
+
+.bg-success {
+    background-color: var(--color-success) !important;
+}
+
+.bg-tertiary {
+    background-color: var(--color-tertiary) !important;
+}
+
+.text-success {
+    color: var(--color-success) !important;
+}
+
+.text-warning {
+    color: var(--color-warning) !important;
+}
+
+.section-1{
+    background-image: url('../Images/bg-1.svg');
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.wrapper{
+    max-width: 1920px;
+}
+
+.btn-buy{
+    background-color: var(--color-success);
+    color: white;
+    padding: 10px 20px;
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 4px solid #FFFFFF;
+}
+
+.btn-buy:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+ul.custom-checklist {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul.custom-checklist li {
+      position: relative;
+      padding-left: 25px;
+    }
+    ul.custom-checklist li::before {
+      content: '\2713'; 
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+      color: green; 
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .answer-container {
+        display: none;
+    }
+
+
+/* XXL */
+@media screen and (min-width: 1400px) {
+    .judul-sec-1{
+        font-size: 63px;
+    }
+
+    .desc-1-sec-1{
+        font-size: 30px;
+    }
+
+    .warning-sec-1{
+        top: -50px;
+        font-size: 23px;
+    }
+
+    .content-x{
+        top: -350px;
+        font-size: 35px;
+    }
+
+    .end-content-sec-1{
+        top: -300px;
+    }
+
+    ul.custom-checklist li {
+      font-size: 35px;
+      padding-left: 50px;
+    }
+
+    ul.custom-checklist li::before {
+      font-size: 35px;
+      font-weight: bolder;
+    }
+
+    .section-2 h1{
+        font-size: 100px;
+    }
+
+    .section-2 h2{
+        font-size: 70px;
+        padding: 0px 60px;
+    }
+
+    .checlist img{
+        width: 50px;
+    }
+
+    .checlist p{
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    .article h3, .article p{
+        font-size: 40px;
+        text-align: justify;
+    }
+
+    
+
+    .riset-content{
+      background-color: var(--color-success);
+      border: 6px solid #7BAC31;
+      border-radius: 60px;
+      padding: 50px 70px;
+    }
+
+    .hr{
+      width: 100%;
+      background-color: #FFFFFF;
+      height: 2px;
+      margin: 50px 0;
+    }
+
+    .section-3 .container{
+      z-index: 1;
+      position: relative;
+    }
+    
+    .desc-penelitian{
+      font-size: 40px;
+      text-align: justify;
+    }
+
+    .next{
+      top: 50%;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    .next:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .prev{
+      top: 50%;
+      left: -35px;
+      cursor: pointer;
+    }
+
+    .prev:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .hijau{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0px;
+    }
+
+    .section-6{
+      background-image: url('../Images/bg-6.svg');
+      background-size: cover;
+      padding-top: 200px;
+    }
+
+    .judul-6, .sub-6{
+      font-size: 70px;
+    }
+
+    .judul-prod-6{
+      font-size: 50px;
+      margin-top: 100px;
+    }
+
+    .kandungan-buah img{
+      width: 200px;
+    }
+
+    .cover-manfaat{
+      border-radius: 80px;
+      border: 9px solid #A7C280;
+      padding: 0 50px;
+      margin-top: 100px;
+    }
+
+    .cover-judul-manfaat{
+      position: relative;
+      top: -60px;
+    }
+
+    .cover-manfaat-list{
+      margin-top: 50px;
+    }
+
+    .manfaat-list{
+      font-size: 30px;
+    }
+
+    .judul-manfaat, .harga, .hemat{
+      font-size: 100px;
+    }
+
+    .section-7{
+      padding-top: 200px;
+    }
+
+    .section-7 .perisai{
+      width: 200px;
+    }
+
+    .section-7 .perisai-desc{
+      font-size: 70px;
+      line-height: 1.1;
+    }
+
+    .cover-harga{
+      margin: 100px 0;
+    }
+
+    .buy-2{
+      font-size: 60px;
+      margin-top: 100px;
+      padding: 20px 100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .prod-7{
+      position: relative;
+      /* top: 90%; */
+      top: -200px;
+      z-index: 0;
+    }
+
+    .penutup-7{
+      width: 100%;
+      height: 200px;
+      background-color: var(--color-success);
+      bottom: 0px;
+    }
+
+    .section-8{
+      position: relative;
+      z-index: 2;
+      padding-bottom: 50px;
+      background: linear-gradient(to bottom, #3B6F38, #89CD85);
+    }
+
+    .judul-faq{
+      font-size: 200px;
+    }
+
+    .faq-list{
+      font-size: 30px;
+    }
+
+    .cover-jawab-faq{
+      width: 90%;
+    }
+
+    .jawab-faq{
+      font-size: 25px;
+      text-align: justify;
+    }
+
+    .arrow-down{
+      font-size: 35px;
+    }
+
+    .footer-text{
+      font-size: 20px;
+      text-align: center;
+      padding: 4px 0;  
+    }
+
+}
+
+/* XL */
+@media screen and (min-width: 1200px) and (max-width: 1399px)  {
+    /* .section-1 {
+        height: 100vh;
+    } */
+}
+
+/* LG */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* .section-1 {
+        height: 100vh;
+    } */
+}
+/* MD */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* .section-1 {
+        height: 100vh;
+    } */
+}
+/* SM */    
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    /* .section-1 {
+        height: 100vh;
+    } */
+}
+/* XS */
+@media screen and (max-width: 575px) {
+    /* .section-1 {
+        height: 100vh;
+    } */
+}
