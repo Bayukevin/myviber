@@ -167,9 +167,17 @@ ul.custom-checklist {
         display: none;
     }
 
+    .swiper-1{
+      overflow-x: hidden;
+    }
+
 
 /* XXL */
 @media screen and (min-width: 1400px) {
+    #btn-in, #btn-en{
+      font-size: 20px;
+    }
+
     .judul-sec-1{
         font-size: 63px;
     }
@@ -181,6 +189,11 @@ ul.custom-checklist {
     .warning-sec-1{
         top: -50px;
         font-size: 23px;
+    }
+
+    .cover-x-1{
+      width: 125px;
+      height: 125px;
     }
 
     .content-x{
@@ -224,8 +237,6 @@ ul.custom-checklist {
         font-size: 40px;
         text-align: justify;
     }
-
-    
 
     .riset-content{
       background-color: var(--color-success);
@@ -279,6 +290,10 @@ ul.custom-checklist {
       position: absolute;
       z-index: 0;
       bottom: 0px;
+    }
+
+    .judul-testi{
+      font-size: 50px;
     }
 
     .section-6{
@@ -401,32 +416,1286 @@ ul.custom-checklist {
 
 /* XL */
 @media screen and (min-width: 1200px) and (max-width: 1399px)  {
-    /* .section-1 {
-        height: 100vh;
-    } */
+    #btn-in, #btn-en{
+      font-size: 20px;
+    }
+
+    .judul-sec-1{
+        font-size: 63px;
+    }
+
+    .desc-1-sec-1{
+        font-size: 30px;
+    }
+
+    .warning-sec-1{
+        top: -50px;
+        font-size: 23px;
+    }
+
+    .cover-x-1{
+      width: 105px;
+      height: 105px;
+    }
+
+    .content-x{
+        top: -210px;
+        font-size: 30px;
+    }
+
+    .end-content-sec-1{
+        top: -250px;
+    }
+
+    ul.custom-checklist li {
+      font-size: 35px;
+      padding-left: 50px;
+    }
+
+    ul.custom-checklist li::before {
+      font-size: 35px;
+      font-weight: bolder;
+    }
+
+    .section-2 h1{
+        font-size: 100px;
+    }
+
+    .section-2 h2{
+        font-size: 70px;
+        padding: 0px 60px;
+    }
+
+    .checlist img{
+        width: 50px;
+    }
+
+    .checlist p{
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    .article h3, .article p{
+        font-size: 40px;
+        text-align: justify;
+    }
+
+    .riset-content{
+      background-color: var(--color-success);
+      border: 6px solid #7BAC31;
+      border-radius: 60px;
+      padding: 50px 70px;
+    }
+
+    .hr{
+      width: 100%;
+      background-color: #FFFFFF;
+      height: 2px;
+      margin: 50px 0;
+    }
+
+    .section-3 .container{
+      z-index: 1;
+      position: relative;
+    }
+    
+    .desc-penelitian{
+      font-size: 30px;
+      text-align: justify;
+    }
+
+    .next{
+      top: 50%;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    .next:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .prev{
+      top: 50%;
+      left: -35px;
+      cursor: pointer;
+    }
+
+    .prev:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .hijau{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0px;
+    }
+
+    .judul-testi{
+      font-size: 50px;
+    }
+
+    .swiper-container-testi{
+      width: 60%;
+    }
+
+    .section-6{
+      background-image: url('../Images/bg-6.svg');
+      background-size: cover;
+      padding-top: 200px;
+    }
+
+    .judul-6, .sub-6{
+      font-size: 70px;
+    }
+
+    .judul-prod-6{
+      font-size: 50px;
+      margin-top: 100px;
+    }
+
+    .kandungan-buah img{
+      width: 200px;
+    }
+
+    .cover-manfaat{
+      border-radius: 80px;
+      border: 9px solid #A7C280;
+      padding: 0 50px;
+      margin-top: 100px;
+    }
+
+    .cover-judul-manfaat{
+      position: relative;
+      top: -60px;
+    }
+
+    .cover-manfaat-list{
+      margin-top: 50px;
+    }
+
+    .manfaat-list{
+      font-size: 30px;
+    }
+
+    .judul-manfaat, .harga, .hemat{
+      font-size: 100px;
+    }
+
+    .section-7{
+      padding-top: 200px;
+    }
+
+    .section-7 .perisai{
+      width: 170px;
+    }
+
+    .section-7 .perisai-desc{
+      font-size: 50px;
+      line-height: 1.1;
+    }
+
+    .cover-harga{
+      margin: 100px 0;
+    }
+
+    .harga{
+      font-size: 70px;
+    }
+
+    .hemat{
+      font-size: 90px;
+    }
+
+    .buy-2{
+      font-size: 50px;
+      margin-top: 100px;
+      padding: 20px 100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .prod-7{
+      position: relative;
+      /* top: 90%; */
+      top: -200px;
+      z-index: 0;
+    }
+
+    .penutup-7{
+      width: 100%;
+      height: 200px;
+      background-color: var(--color-success);
+      bottom: 0px;
+    }
+
+    .section-8{
+      position: relative;
+      z-index: 2;
+      padding-bottom: 50px;
+      background: linear-gradient(to bottom, #3B6F38, #89CD85);
+    }
+
+    .judul-faq{
+      font-size: 200px;
+    }
+
+    .faq-list{
+      font-size: 30px;
+    }
+
+    .cover-jawab-faq{
+      width: 90%;
+    }
+
+    .jawab-faq{
+      font-size: 25px;
+      text-align: justify;
+    }
+
+    .arrow-down{
+      font-size: 35px;
+    }
+
+    .footer-text{
+      font-size: 20px;
+      text-align: center;
+      padding: 4px 0;  
+    }
 }
 
 /* LG */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    /* .section-1 {
-        height: 100vh;
-    } */
+    #btn-in, #btn-en{
+      font-size: 20px;
+    }
+
+    .judul-sec-1{
+        font-size: 63px;
+    }
+
+    .desc-1-sec-1{
+        font-size: 30px;
+    }
+
+    .warning-sec-1{
+        top: -50px;
+        font-size: 20px;
+    }
+
+    .cover-x-1{
+      width: 80px;
+      height: 80px;
+    }
+
+    .content-x{
+        top: -150px;
+        font-size: 22px;
+    }
+
+    .end-content-sec-1{
+        top: -180px;
+    }
+
+    ul.custom-checklist li {
+      font-size: 30px;
+      padding-left: 50px;
+    }
+
+    ul.custom-checklist li::before {
+      font-size: 35px;
+      font-weight: bolder;
+    }
+
+    .section-2 h1{
+        font-size: 80px;
+    }
+
+    .section-2 h2{
+        font-size: 50px;
+        padding: 0px 60px;
+    }
+
+    .checlist img{
+        width: 40px;
+    }
+
+    .checlist p{
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .article h3, .article p{
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .riset-content{
+      background-color: var(--color-success);
+      border: 6px solid #7BAC31;
+      border-radius: 60px;
+      padding: 50px 70px;
+    }
+
+    .hr{
+      width: 100%;
+      background-color: #FFFFFF;
+      height: 2px;
+      margin: 50px 0;
+    }
+
+    .section-3 .container{
+      z-index: 1;
+      position: relative;
+    }
+    
+    .desc-penelitian{
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .next{
+      top: 50%;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    .next:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .prev{
+      top: 50%;
+      left: -35px;
+      cursor: pointer;
+    }
+
+    .prev:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .hijau{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0px;
+    }
+
+    .judul-testi{
+      font-size: 50px;
+    }
+
+    .swiper-container-testi{
+      width: 60%;
+    }
+
+    .section-6{
+      background-image: url('../Images/bg-6.svg');
+      background-size: cover;
+      padding-top: 120px;
+    }
+
+    .judul-6, .sub-6{
+      font-size: 70px;
+    }
+
+    .judul-prod-6{
+      font-size: 50px;
+      margin-top: 100px;
+    }
+
+    .kandungan-buah img{
+      width: 200px;
+    }
+
+    .cover-manfaat{
+      border-radius: 80px;
+      border: 9px solid #A7C280;
+      padding: 0 50px;
+      margin-top: 100px;
+    }
+
+    .cover-judul-manfaat{
+      position: relative;
+      top: -50px;
+    }
+
+    .cover-manfaat-list{
+      margin-top: 50px;
+    }
+
+    .manfaat-list{
+      font-size: 20px;
+    }
+
+    .judul-manfaat, .harga, .hemat{
+      font-size: 70px;
+    }
+
+    .section-7{
+      padding-top: 200px;
+    }
+
+    .section-7 .perisai{
+      width: 170px;
+    }
+
+    .section-7 .perisai-desc{
+      font-size: 50px;
+      line-height: 1.1;
+    }
+
+    .cover-harga{
+      margin: 100px 0;
+    }
+
+    .buy-2{
+      font-size: 40px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      padding: 20px 100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .prod-7{
+      position: relative;
+      top: -200px;
+      z-index: 0;
+    }
+
+    .penutup-7{
+      width: 100%;
+      height: 200px;
+      background-color: var(--color-success);
+      bottom: 0px;
+    }
+
+    .section-8{
+      position: relative;
+      z-index: 2;
+      padding-bottom: 50px;
+      background: linear-gradient(to bottom, #3B6F38, #89CD85);
+    }
+
+    .judul-faq{
+      font-size: 130px;
+    }
+
+    .faq-list{
+      font-size: 25px;
+    }
+
+    .cover-jawab-faq{
+      width: 90%;
+    }
+
+    .jawab-faq{
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .arrow-down{
+      font-size: 35px;
+    }
+
+    .footer-text{
+      font-size: 20px;
+      text-align: center;
+      padding: 4px 0;  
+    }
 }
 /* MD */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* .section-1 {
-        height: 100vh;
-    } */
+    #btn-in, #btn-en{
+      font-size: 20px;
+    }
+
+    .judul-sec-1{
+        font-size: 45px;
+    }
+
+    .desc-1-sec-1{
+        font-size: 20px;
+    }
+
+    .warning-sec-1{
+        top: -30px;
+        font-size: 18px;
+    }
+
+    .btn-buy{
+      font-size: 20px;
+    }
+
+    .cover-x-1{
+      width: 60px;
+      height: 60px;
+    }
+
+    .content-x{
+        top: -40px;
+        font-size: 18px;
+    }
+
+    .end-content-sec-1{
+        top: -80px;
+    }
+
+    ul.custom-checklist li {
+      font-size: 22px;
+      padding-left: 50px;
+    }
+
+    ul.custom-checklist li::before {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+    .section-2 h1{
+        font-size: 55px;
+    }
+
+    .section-2 h2{
+        font-size: 40px;
+        padding: 0px 60px;
+    }
+
+    .checlist img{
+        width: 30px;
+    }
+
+    .checlist p{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .article h3, .article p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .riset-content{
+      background-color: var(--color-success);
+      border: 6px solid #7BAC31;
+      border-radius: 60px;
+      padding: 50px 70px;
+    }
+
+    .hr{
+      width: 100%;
+      background-color: #FFFFFF;
+      height: 2px;
+      margin: 50px 0;
+    }
+
+    .prev-article, .next-article, .prev-testi, .next-testi{
+      width: 40px;
+    }
+
+    .section-3 .container{
+      z-index: 1;
+      position: relative;
+    }
+    
+    .desc-penelitian{
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .next{
+      top: 50%;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    .next:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .prev{
+      top: 50%;
+      left: -35px;
+      cursor: pointer;
+    }
+
+    .prev:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .hijau{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0px;
+    }
+
+    .judul-testi{
+      font-size: 40px;
+    }
+
+    .swiper-container-testi{
+      width: 70%;
+    }
+
+    .section-6{
+      background-image: url('../Images/bg-6.svg');
+      background-size: cover;
+      padding-top: 30px;
+    }
+
+    .judul-6, .sub-6{
+      font-size: 50px;
+    }
+
+    .judul-prod-6{
+      font-size: 40px;
+      margin-top: 70px;
+    }
+
+    .kandungan-buah img{
+      width: 100px;
+    }
+
+    .cover-manfaat{
+      border-radius: 80px;
+      border: 9px solid #A7C280;
+      padding: 0 50px;
+      margin-top: 100px;
+    }
+
+    .cover-judul-manfaat{
+      position: relative;
+      top: -45px;
+    }
+
+    .cover-manfaat-list{
+      margin-top: 50px;
+    }
+
+    .manfaat-list{
+      font-size: 17px;
+    }
+
+    .manfaat-img{
+      width: 40px;
+    }
+
+    .judul-manfaat{
+      margin: 15px 0;
+    }
+
+    .judul-manfaat, .harga, .hemat{
+      font-size: 40px;
+    }
+
+    .section-7{
+      padding-top: 100px;
+    }
+
+    .section-7 .perisai{
+      width: 100px;
+    }
+
+    .section-7 .perisai-desc{
+      font-size: 30px;
+      line-height: 1.1;
+    }
+
+    .cover-harga{
+      margin: 70px 0;
+    }
+
+    .buy-2{
+      font-size: 30px;
+      margin-top: 40px;
+      margin-bottom: 60px;
+      padding: 15px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .prod-7{
+      position: relative;
+      top: -200px;
+      z-index: 0;
+    }
+
+    .penutup-7{
+      width: 100%;
+      height: 200px;
+      background-color: var(--color-success);
+      bottom: 0px;
+    }
+
+    .section-8{
+      position: relative;
+      z-index: 2;
+      padding-bottom: 50px;
+      background: linear-gradient(to bottom, #3B6F38, #89CD85);
+    }
+
+    .judul-faq{
+      font-size: 100px;
+    }
+
+    .faq-list{
+      font-size: 20px;
+    }
+
+    .cover-jawab-faq{
+      width: 90%;
+    }
+
+    .jawab-faq{
+      font-size: 17px;
+      text-align: justify;
+    }
+
+    .arrow-down{
+      font-size: 25px;
+    }
+
+    .footer-text{
+      font-size: 15px;
+      text-align: center;
+      padding: 4px 0;  
+    }
 }
 /* SM */    
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    /* .section-1 {
-        height: 100vh;
-    } */
+    #btn-in, #btn-en{
+      font-size: 20px;
+    }
+
+    .judul-sec-1{
+        font-size: 55px;
+    }
+
+    .desc-1-sec-1{
+        font-size: 30px;
+    }
+
+    .warning-sec-1{
+        top: -40px;
+        font-size: 25px;
+    }
+
+    .btn-buy{
+      font-size: 30px;
+    }
+
+    .cover-x-1{
+      width: 70px;
+      height: 70px;
+    }
+
+    .content-x{
+        top: -40px;
+        font-size: 20px;
+    }
+
+    .end-content-sec-1{
+        top: -80px;
+    }
+
+    ul.custom-checklist li {
+      font-size: 22px;
+      padding-left: 50px;
+    }
+
+    ul.custom-checklist li::before {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+    .section-2 h1{
+        font-size: 50px;
+    }
+
+    .section-2 h2{
+        font-size: 40px;
+        padding: 0px 60px;
+    }
+
+    .checlist img{
+        width: 30px;
+    }
+
+    .checlist p{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .article h3, .article p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .riset-content{
+      background-color: var(--color-success);
+      border: 6px solid #7BAC31;
+      border-radius: 60px;
+      padding: 50px 70px;
+    }
+
+    .hr{
+      width: 100%;
+      background-color: #FFFFFF;
+      height: 2px;
+      margin: 50px 0;
+    }
+
+    .prev-article, .next-article, .prev-testi, .next-testi{
+      width: 40px;
+    }
+
+    .section-3 .container{
+      z-index: 1;
+      position: relative;
+    }
+    
+    .desc-penelitian{
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .next{
+      top: 50%;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    .next:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .prev{
+      top: 50%;
+      left: -35px;
+      cursor: pointer;
+    }
+
+    .prev:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .hijau{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0px;
+    }
+
+    .judul-testi{
+      font-size: 40px;
+    }
+
+    .swiper-container-testi{
+      width: 100%;
+    }
+
+    .section-6{
+      background-image: url('../Images/bg-6.svg');
+      background-size: cover;
+      padding-top: 30px;
+    }
+
+    .judul-6, .sub-6{
+      font-size: 50px;
+    }
+
+    .judul-prod-6{
+      font-size: 40px;
+      margin-top: 70px;
+    }
+
+    .kandungan-buah img{
+      width: 100px;
+    }
+
+    .cover-manfaat{
+      border-radius: 80px;
+      border: 9px solid #A7C280;
+      padding: 0 50px;
+      margin-top: 100px;
+    }
+
+    .cover-judul-manfaat{
+      position: relative;
+      top: -45px;
+    }
+
+    .cover-manfaat-list{
+      margin-top: 50px;
+    }
+
+    .manfaat-list{
+      font-size: 17px;
+    }
+
+    .manfaat-img{
+      width: 40px;
+    }
+
+    .judul-manfaat{
+      margin: 15px 0;
+    }
+
+    .judul-manfaat, .harga, .hemat{
+      font-size: 30px;
+    }
+
+    .section-7{
+      padding-top: 100px;
+    }
+
+    .section-7 .perisai{
+      width: 100px;
+    }
+
+    .section-7 .perisai-desc{
+      font-size: 30px;
+      line-height: 1.1;
+    }
+
+    .cover-harga{
+      margin: 70px 0;
+    }
+
+    .buy-2{
+      font-size: 30px;
+      margin-top: 40px;
+      margin-bottom: 60px;
+      padding: 15px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .prod-7{
+      position: relative;
+      top: -200px;
+      z-index: 0;
+    }
+
+    .penutup-7{
+      width: 100%;
+      height: 200px;
+      background-color: var(--color-success);
+      bottom: 0px;
+    }
+
+    .section-8{
+      position: relative;
+      z-index: 2;
+      padding-bottom: 50px;
+      background: linear-gradient(to bottom, #3B6F38, #89CD85);
+    }
+
+    .judul-faq{
+      font-size: 80px;
+    }
+
+    .faq-list{
+      font-size: 15px;
+    }
+
+    .cover-jawab-faq{
+      width: 90%;
+    }
+
+    .jawab-faq{
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    .arrow-down{
+      font-size: 18px;
+    }
+
+    .footer-text{
+      font-size: 15px;
+      text-align: center;
+      padding: 4px 0;  
+    }
 }
 /* XS */
 @media screen and (max-width: 575px) {
-    /* .section-1 {
-        height: 100vh;
-    } */
+    #btn-in, #btn-en{
+      font-size: 20px;
+    }
+
+    .judul-sec-1{
+        font-size: 55px;
+    }
+
+    .model-1{
+      width: 500px;
+    }
+
+    .desc-1-sec-1{
+        font-size: 30px;
+    }
+
+    .warning-sec-1{
+        top: -40px;
+        font-size: 20px;
+    }
+
+    .btn-buy{
+      font-size: 30px;
+    }
+
+    .cover-x-1{
+      width: 50px;
+      height: 50px;
+    }
+
+    .content-x{
+        top: -40px;
+        font-size: 15px;
+    }
+
+    .end-content-sec-1{
+        top: -80px;
+    }
+
+    ul.custom-checklist li {
+      font-size: 15px;
+      padding-left: 50px;
+    }
+
+    ul.custom-checklist li::before {
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    .section-2 h1{
+        font-size: 30px;
+    }
+
+    .section-2 h2{
+        font-size: 30px;
+        padding: 0px 60px;
+    }
+
+    .checlist img{
+        width: 25px;
+    }
+
+    .checlist p{
+        font-size: 17px;
+        line-height: 1.3;
+    }
+
+    .article h3, .article p{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .riset-content{
+      background-color: var(--color-success);
+      border: 6px solid #7BAC31;
+      border-radius: 60px;
+      padding: 50px 20px;
+    }
+
+    .hr{
+      width: 100%;
+      background-color: #FFFFFF;
+      height: 2px;
+      margin: 50px 0;
+    }
+
+    .prev-article, .next-article, .prev-testi, .next-testi{
+      width: 30px;
+    }
+
+    .section-3 .container{
+      z-index: 1;
+      position: relative;
+    }
+    
+    .desc-penelitian{
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    .next{
+      top: 50%;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    .next:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .prev{
+      top: 50%;
+      left: -35px;
+      cursor: pointer;
+    }
+
+    .prev:hover{
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .hijau{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0px;
+    }
+
+    .judul-testi{
+      font-size: 20px;
+    }
+
+    .swiper-container-testi{
+      width: 100%;
+    }
+
+    .section-6{
+      background-image: url('../Images/bg-6.svg');
+      background-size: cover;
+      padding-top: 30px;
+    }
+
+    .judul-6, .sub-6{
+      font-size: 30px;
+    }
+
+    .judul-prod-6{
+      font-size: 20px;
+      margin-top: 70px;
+    }
+
+    .kandungan-buah img{
+      width: 60px;
+    }
+
+    .cover-manfaat{
+      border-radius: 80px;
+      border: 9px solid #A7C280;
+      padding: 0 10px;
+      margin-top: 100px;
+    }
+
+    .cover-judul-manfaat{
+      position: relative;
+      top: -45px;
+    }
+
+    .cover-manfaat-list{
+      margin-top: 50px;
+    }
+
+    .manfaat-list{
+      font-size: 15px;
+    }
+
+    .manfaat-img{
+      width: 25px;
+    }
+
+    .judul-manfaat{
+      margin: 15px 0;
+    }
+
+    .judul-manfaat, .harga, .hemat{
+      font-size: 20px;
+    }
+
+    .section-7{
+      padding-top: 100px;
+    }
+
+    .section-7 .perisai{
+      width: 50px;
+    }
+
+    .section-7 .perisai-desc{
+      font-size: 15px;
+      line-height: 1.1;
+    }
+
+    .cover-harga{
+      margin: 30px 0;
+    }
+
+    .buy-2{
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 120px;
+      padding: 15px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .prod-7{
+      position: relative;
+      top: -200px;
+      z-index: 0;
+    }
+
+    .penutup-7{
+      width: 100%;
+      height: 200px;
+      background-color: var(--color-success);
+      bottom: 0px;
+    }
+
+    .section-8{
+      position: relative;
+      z-index: 2;
+      padding-bottom: 50px;
+      background: linear-gradient(to bottom, #3B6F38, #89CD85);
+    }
+
+    .judul-faq{
+      font-size: 50px;
+    }
+
+    .faq-list{
+      font-size: 13px;
+    }
+
+    .cover-jawab-faq{
+      width: 90%;
+    }
+
+    .jawab-faq{
+      font-size: 13px;
+      text-align: justify;
+    }
+
+    .arrow-down{
+      font-size: 15px;
+    }
+
+    .footer-text{
+      font-size: 13px;
+      text-align: center;
+      padding: 4px 0;  
+    }
+
+    .wrapper{
+      max-width: 100% ;
+    }
 }
