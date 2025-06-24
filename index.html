@@ -36,9 +36,9 @@
                   <img class="img-fluid mt-5 model-1" src="Assets/Images/model-1.svg" alt="images">
                </div>
                <div class="col-md-6">
-                  <h2 class="text-center righteous-regular judul-sec-1 d-none d-md-inline">Myviber</h2>
-                  <img class="img-fluid mt-4 in d-none d-md-inline" src="Assets/Images/text-1-sec-1.svg" alt="images">
-                  <img class="img-fluid mt-4 en d-none d-md-inline" src="Assets/Images/text-1-sec-1-en.svg" alt="images">
+                  <h2 class="text-center righteous-regular judul-sec-1 d-none d-md-block">Myviber</h2>
+                  <img class="img-fluid mt-4 d-none d-md-inline img-in" src="Assets/Images/text-1-sec-1.svg" alt="images">
+                  <img class="img-fluid mt-4 d-none d-md-inline img-en" src="Assets/Images/text-1-sec-1-en.svg" alt="images">
                   <p class="montserrat-semibold text-center desc-1-sec-1 in">Detox harian yang bantu anda untuk mendapatkan tubuh ideal lebih praktis.</p>
                   <p class="montserrat-semibold text-center desc-1-sec-1 en">A simple daily detox to help you achieve your ideal body.</p>
                   <div class="d-flex justify-content-center pt-3 pb-4">
@@ -264,7 +264,7 @@
       <div class="section-4 bg-success">
          <div class="container">
             <div class="py-5">
-               <h1 class="montserrat-regular text-white text-center in judul-testi">Lebih dari <b>20 Testimoni</b> Kepuasan Pelanggan MyViber</h1>
+               <h1 class="montserrat-regular text-white text-center in judul-testi">Lebih dari <b>20 Pelanggan</b> yang puas berbagi pengalaman mereka dengan MyViber</h1>
                <h1 class="montserrat-regular text-white text-center en judul-testi">More Than <b>20 Happy Customers</b> Share Their MyViber Experience</h1>
             </div>
             <div class="d-flex justify-content-center">
@@ -358,8 +358,11 @@
       </div>
 
       <div class="section-5 youtube">
-         <img class="img-fluid" src="Assets/Images/tumbhnail.svg" alt="">
+         <iframe class="youtube" src="https://www.youtube.com/embed/SFauiXuq--c?si=n76bq0oRukdEtYqa" 
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen></iframe>
       </div>
+      
 
       <div class="section-6">
          <div class="container py-5">
@@ -765,40 +768,60 @@
     </script>
 
     <script>
-   document.addEventListener("DOMContentLoaded", function () {
-      const btnIn = document.getElementById("btn-in");
-      const btnEn = document.getElementById("btn-en");
-      const elementsIn = document.querySelectorAll(".in");
-      const elementsEn = document.querySelectorAll(".en");
+      document.addEventListener("DOMContentLoaded", function () {
+         const btnIn = document.getElementById("btn-in");
+         const btnEn = document.getElementById("btn-en");
+         const elementsIn = document.querySelectorAll(".in");
+         const elementsEn = document.querySelectorAll(".en");
+         const imagesIn = document.querySelectorAll(".img-in");
+         const imagesEn = document.querySelectorAll(".img-en");
 
-      function showLanguage(lang) {
-         if (lang === "in") {
-            // Tombol aktif
-            btnIn.classList.add("fw-bold");
-            btnEn.classList.remove("fw-bold");
+         function showLanguage(lang) {
+            if (lang === "in") {
+               // Tombol aktif
+               btnIn.classList.add("fw-bold");
+               btnEn.classList.remove("fw-bold");
 
-            // Tampilkan Indonesia, sembunyikan English
-            elementsIn.forEach(el => el.style.display = "block");
-            elementsEn.forEach(el => el.style.display = "none");
-         } else if (lang === "en") {
-            // Tombol aktif
-            btnEn.classList.add("fw-bold");
-            btnIn.classList.remove("fw-bold");
+               // Tampilkan Indonesia, sembunyikan English
+               elementsIn.forEach(el => el.style.display = "block");
+               elementsEn.forEach(el => el.style.display = "none");
 
-            // Tampilkan English, sembunyikan Indonesia
-            elementsEn.forEach(el => el.style.display = "block");
-            elementsIn.forEach(el => el.style.display = "none");
+               imagesIn.forEach(img => {
+                  img.classList.remove("d-none"); 
+                  img.classList.add("d-md-inline"); 
+               });
+               imagesEn.forEach(img => {
+                  img.classList.add("d-none"); 
+                  img.classList.remove("d-md-inline");
+               });
+            } else if (lang === "en") {
+               // Tombol aktif
+               btnEn.classList.add("fw-bold");
+               btnIn.classList.remove("fw-bold");
+
+               // Tampilkan English, sembunyikan Indonesia
+               elementsEn.forEach(el => el.style.display = "block");
+               elementsIn.forEach(el => el.style.display = "none");
+
+               imagesEn.forEach(img => {
+                  img.classList.remove("d-none");
+                  img.classList.add("d-md-inline");
+               });
+               imagesIn.forEach(img => {
+                  img.classList.add("d-none");
+                  img.classList.remove("d-md-inline");
+               });
+            }
          }
-      }
 
-      // Inisialisasi default: IN
-      showLanguage("in");
+         // Inisialisasi default: IN
+         showLanguage("in");
 
-      // Event listener
-      btnIn.addEventListener("click", () => showLanguage("in"));
-      btnEn.addEventListener("click", () => showLanguage("en"));
-   });
-</script>
+         // Event listener
+         btnIn.addEventListener("click", () => showLanguage("in"));
+         btnEn.addEventListener("click", () => showLanguage("en"));
+      });
+   </script>
 
  </body>
  </html>

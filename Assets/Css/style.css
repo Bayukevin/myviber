@@ -135,6 +135,7 @@ body{
     font-weight: 500;
     text-decoration: none;
     border: 4px solid #FFFFFF;
+    box-shadow: inset -4px -8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .btn-buy:hover{
@@ -244,9 +245,10 @@ ul.custom-checklist {
 
     .riset-content{
       background-color: var(--color-success);
-      border: 6px solid #7BAC31;
+      border: 16px solid #7BAC31;
       border-radius: 60px;
       padding: 50px 70px;
+       box-shadow: inset 0 0 35px rgba(41, 58, 16, 0.849);
     }
 
     .hr{
@@ -321,9 +323,10 @@ ul.custom-checklist {
 
     .cover-manfaat{
       border-radius: 80px;
-      border: 9px solid #A7C280;
+      border: 9px solid #93B375;
       padding: 0 50px;
       margin-top: 100px;
+      box-shadow: inset -5px 5px 35px rgb(57, 82, 23);
     }
 
     .cover-judul-manfaat{
@@ -358,6 +361,7 @@ ul.custom-checklist {
 
     .cover-harga{
       margin: 100px 0;
+      box-shadow: 0 0 20px 20px #3B6F38;
     }
 
     .buy-2{
@@ -416,6 +420,11 @@ ul.custom-checklist {
       padding: 4px 0;  
     }
 
+    .youtube{
+      width: 100%;
+      height: 100vh;
+    }
+
 }
 
 /* XL */
@@ -443,12 +452,12 @@ ul.custom-checklist {
     }
 
     .content-x{
-        top: -210px;
+        top: -200px;
         font-size: 30px;
     }
 
     .end-content-sec-1{
-        top: -250px;
+        top: -150px;
     }
 
     ul.custom-checklist li {
@@ -669,6 +678,11 @@ ul.custom-checklist {
       text-align: center;
       padding: 4px 0;  
     }
+
+    .youtube{
+      width: 100%;
+      height: 100vh;
+    }
 }
 
 /* LG */
@@ -701,7 +715,7 @@ ul.custom-checklist {
     }
 
     .end-content-sec-1{
-        top: -180px;
+        top: -150px;
     }
 
     ul.custom-checklist li {
@@ -913,6 +927,11 @@ ul.custom-checklist {
       font-size: 20px;
       text-align: center;
       padding: 4px 0;  
+    }
+
+    .youtube{
+      width: 100%;
+      height: 100vh;
     }
 }
 /* MD */
@@ -1174,6 +1193,11 @@ ul.custom-checklist {
       text-align: center;
       padding: 4px 0;  
     }
+
+    .youtube{
+      width: 100%;
+      height: 100vh;
+    }
 }
 /* SM */    
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -1433,6 +1457,10 @@ ul.custom-checklist {
       font-size: 15px;
       text-align: center;
       padding: 4px 0;  
+    }
+    .youtube{
+      width: 100%;
+      height: 100vh;
     }
 }
 /* XS */
@@ -1701,5 +1729,10 @@ ul.custom-checklist {
 
     .wrapper{
       max-width: 100% ;
+    }
+
+    .youtube{
+      width: 100%;
+      height: 100vh;
     }
 }
